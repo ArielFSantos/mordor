@@ -8,15 +8,16 @@
 }
 
 header{
-    
-    height: 150px;
+    display: flex;
+    margin: auto;
+    width: 1500px;
+    height: 130px;
     background-color: rgba(179, 179, 179, 0.562);
     background-size: contain;
     
 }
 #logo{
-    margin: 40px 0px 0px 300px;
-    display: inline-block;
+    margin: 40px 0px 0px 210px;
     height: 60px;
     width: 180px;
     background-repeat: no-repeat;
@@ -24,9 +25,8 @@ header{
     
 }
 nav{
-    text-align: right;
-    margin-left: 500px;
-    display: inline-block;
+    padding: 70px 0px 0px 300px;
+    margin-left: 200px;
     width: 500px;
 }
 nav div{
@@ -36,12 +36,23 @@ nav div{
 }
 body{
     
+    
+    
+    background-color:#121314 ;
+}
+#background{
     background: center top no-repeat;
     background-image: url(img/Background_header.jpg);
-    background-color:#121314 ;
 }
 head{
     
+}
+#desc{
+    
+    padding-top: 650px;
+    color: white;
+    font-weight: bolder;
+    width: 500px;
 }
 main{
     
@@ -51,35 +62,82 @@ main{
    
     
 }
-#descricao{
-    
-    padding-top: 530px;
-    color: white;
-    font-weight: bolder;
-    width: 500px;
-}
-picture{
-    margin: 90px 0px 90px 0px;
+
+.fotos{
+    margin: 130px 0px 90px 0px;
     width: 1100px;
     display: flex;
     justify-content: space-between;
 }
-picture div{
+.fotos img{
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    
 }
-picture img:hover{
-    width: 420px;
-    height: 420px;
+
+div#att{
+    
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    
+}
+#att picture{
+    margin-left: 100px;
 
 }
-#att{
-    text-align: right;
+#att h1{
+    margin-bottom: 20px;
+    color: rgb(0, 225, 255);
 }
+#att h2{
+    margin-top: 60px;
+    padding: 10px;
+    text-align: center;
+    border:2px solid white;
+}
+.inf{
+    margin: 100px 0px 0px 200px;
+    
+}
+
+
 #back{
+
     text-align: center;
     margin: auto;
 }
+#backgroundFooter{
+    padding-top: 10px;
+    border-top: 10px;
+    margin:auto;
+    width: 1500px;
+    height: 900px;
+    background-image: url(img/Background_footer.jpg);
+}
+
+#centro{
+    margin-top: 700px;
+}
+
+footer h1{
+    font-size: 25px;
+    margin-left: 550px;
+    margin-top: 200px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    border:2px solid white;
+}
+footer h2{
+    color: white;
+    padding:500px 0px 0px 600px;
+}
+#final{
+    flex-direction: column;
+    display: flex;
+}
+
 
 
