@@ -3,16 +3,18 @@
 
 
 *{
+    font-weight: lighter;
     padding: 0;
     margin: 0;
 }
 
 header{
+
     display: flex;
     margin: auto;
     width: 1500px;
     height: 130px;
-    background-color: rgba(179, 179, 179, 0.562);
+    background-color: rgba(255, 255, 255, 0.911);
     background-size: contain;
     
 }
@@ -30,7 +32,7 @@ nav{
     width: 500px;
 }
 nav div{
-    font-weight: bolder;
+    
     padding-left: 40px;
     display: inline-block;
 }
@@ -51,7 +53,6 @@ head{
     
     padding-top: 650px;
     color: white;
-    font-weight: bolder;
     width: 500px;
 }
 main{
@@ -86,19 +87,24 @@ div#att{
 
 }
 #att h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: rgb(0, 225, 255);
 }
 #att h2{
-    margin-top: 60px;
-    padding: 10px;
+    width: 200px;
+    margin-top: 80px;
+    padding: 10px 20px ;
     text-align: center;
     border:2px solid white;
-}
-.inf{
-    margin: 100px 0px 0px 200px;
+    font-size: 24px;
     
 }
+.inf{
+    width: 400px;
+    margin: 100px 0px 0px 150px;
+    font-size: 25px;
+}
+
 
 
 #back{
