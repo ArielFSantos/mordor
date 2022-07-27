@@ -40,16 +40,12 @@ header{
 }
 #logo{
     
-    margin: 4vh 10vw;
-    width: 180px;
+    margin: auto;
     
 }
 nav{
+    margin: auto;
     
-    
-    align-items:center;
-    margin: 6vh 10vw;
-    width: 500px;
 }
 nav div{
     border-radius: 300px;
@@ -163,7 +159,7 @@ footer h1{
     font-size: 25px;
     margin-top: 300px;
     padding-top: 20px;
-    margin-bottom: 500px;
+    margin-bottom: 400px;
     text-align: center;
     height: 50px;
     width: 400px;
