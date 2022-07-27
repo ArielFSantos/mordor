@@ -3,11 +3,15 @@
 
 
 *{
+
+    color: white;
+    text-decoration: none;
     font-weight: lighter;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
 }
+
 #seta img{
 
     width: 100px;
@@ -19,84 +23,83 @@
 }
 
 header{
-
+    
     display: flex;
-    margin: auto;
-    width: 1500px;
-    height: 130px;
+    justify-content: center;
+    width: 100w;
+    height: 13vh;
     background-color: rgba(255, 255, 255, 0.911);
-    background-size: contain;
     
 }
 #logo{
-    margin: 40px 0px 0px 210px;
-    height: 60px;
+    
+    margin: 4vh 10vw;
     width: 180px;
-    background-repeat: no-repeat;
-    background-image: url(img/LOGO.png);
     
 }
 nav{
-    padding: 70px 0px 0px 300px;
-    margin-left: 200px;
+    
+    
+    align-items:center;
+    margin: 6vh 10vw;
     width: 500px;
 }
 nav div{
-    
+    color: black;
     padding-left: 40px;
     display: inline-block;
 }
 body{
     
-    
-    
     background-color:#121314 ;
 }
 #background{
+
     background: center top no-repeat;
     background-image: url(img/Background_header.jpg);
 }
-head{
-    
-}
+
 #desc{
     
-    padding-top: 650px;
+    padding-top: 60vh;
     color: white;
-    width: 500px;
+    width: 450px;
 }
 main{
     
     margin: auto;
-    width: 1100px;
+    max-width: 1100px;
     height: 1200px;
    
     
 }
 
-.fotos{
+#fotos{
+
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 130px 0px 90px 0px;
-    width: 1100px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
 }
-.fotos img{
-    background-repeat: no-repeat;
+#fotos img{
+
+
+
+   
     
 }
 
 div#att{
-    
-    width: 1100px;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
     display: flex;
     
 }
-#att picture{
-    margin-left: 100px;
 
-}
 #att h1{
+
     margin-bottom: 10px;
     color: rgb(0, 225, 255);
 }
@@ -110,9 +113,13 @@ div#att{
     
 }
 .inf{
-    width: 400px;
-    margin: 100px 0px 0px 150px;
+
+    
+    padding: 50px;
     font-size: 25px;
+}
+.inf h2{
+    margin: auto;
 }
 
 
@@ -123,23 +130,26 @@ div#att{
     margin: auto;
 }
 #backgroundFooter{
-    padding-top: 10px;
-    border-top: 10px;
+    
     margin:auto;
-    width: 1500px;
+    max-width: 1500px;
     height: 900px;
+
+    background:center;
+    background-repeat: no-repeat;
     background-image: url(img/Background_footer.jpg);
 }
 
 #centro{
-    margin-top: 700px;
+    
 }
 
 footer h1{
+
     font-size: 25px;
-    margin-left: 550px;
-    margin-top: 200px;
-    color: white;
+    
+    
+    margin-top: 10vh;
     padding-top: 20px;
     text-align: center;
     height: 50px;
@@ -147,10 +157,13 @@ footer h1{
     border:2px solid white;
 }
 footer h2{
+    margin-top: 60vh;
     color: white;
-    padding:500px 0px 0px 600px;
+    align-items: center;
 }
 #final{
+    
+    align-items: center;
     flex-direction: column;
     display: flex;
 }
