@@ -74,7 +74,7 @@ body{
 
 #desc{
     
-    padding-top: 60vh;
+    padding-top: 700px;
     color: white;
     width: 450px;
 }
@@ -161,17 +161,16 @@ div#att{
 footer h1{
 
     font-size: 25px;
-    
-    
-    margin-top: 10vh;
+    margin-top: 300px;
     padding-top: 20px;
+    margin-bottom: 500px;
     text-align: center;
     height: 50px;
     width: 400px;
     border:2px solid white;
 }
 footer h2{
-    margin-top: 60vh;
+    
     color: white;
     align-items: center;
 }
