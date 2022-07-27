@@ -1,5 +1,12 @@
 @charset "utf-08";
 
+@media (max-width: 1010px) {
+
+    #att{
+    padding-top: 500px;
+}
+}
+
 
 
 *{
@@ -91,6 +98,7 @@ main{
 }
 
 div#att{
+
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
