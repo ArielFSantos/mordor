@@ -6,6 +6,16 @@
     font-weight: lighter;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
+}
+#seta img{
+
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 60px;
+    
 }
 
 header{
