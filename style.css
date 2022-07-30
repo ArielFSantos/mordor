@@ -1,14 +1,5 @@
 @charset "utf-08";
 
-@media (max-width: 1010px) {
-
-    #att{
-    padding-top: 500px;
-    }
-}
-
-
-
 *{
 
     color: white;
@@ -39,6 +30,7 @@ header{
     
 }
 #logo{
+    
     
     margin: auto;
     
