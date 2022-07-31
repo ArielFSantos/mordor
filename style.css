@@ -12,11 +12,10 @@
 
 #seta img{
 
-    width: 100px;
-    height: 100px;
+    width: 9%;
+    bottom: 5vh;
+    right: 5vw;
     position: fixed;
-    bottom: 30px;
-    right: 60px;
     
 }
 
